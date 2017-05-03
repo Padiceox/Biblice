@@ -1,4 +1,4 @@
 
 public class Lado {
- public int lado;
+ public float lado;
 }
