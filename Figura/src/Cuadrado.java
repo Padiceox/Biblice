@@ -1,6 +1,6 @@
 
 public class Cuadrado  extends Figura{
-	public int lado;
+	public float lado;
 
 	public void mostrarArea(){
 		area=base*altura;
