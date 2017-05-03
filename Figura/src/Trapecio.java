@@ -1,6 +1,6 @@
 
-public class Trapecio extends Figura{
-	public void mostrarArea(){
+private class Trapecio extends Figura{
+	private void mostrarArea(){
 	
 		area =( basemayor+ basemenor)*altura/2;
 	
