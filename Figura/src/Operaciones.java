@@ -1,6 +1,6 @@
-public class Operaciones {
+private class Operaciones {
 
-	public static void Sumar(Integer x, Integer y) {
+	private static void Sumar(Integer x, Integer y) {
 		try{
 		System.out.println(x + "+" + y + "=" + (x+y));
 		
@@ -13,8 +13,8 @@ public class Operaciones {
 
 }
 	
-	public static void Dividir (Integer x, Integer y){
-		float res=0;
+	private static void Dividir (Integer x, Integer y){
+		int res=0;
 		try { res=x/y;}
 		
 		catch(ArithmeticException a){
@@ -36,11 +36,11 @@ public class Operaciones {
 		MyException(int code){
 			errorCode=code;
 		}
-		public String toString(){
+		private String toString(){
 			return "Error nro:"+ errorCode;
 		}
 		
-		public static void Test (int n) throws MyException {
+		private static void Test (int n) throws MyException {
 			if(n>10){
 				throw new MyException(n);
 			}
