@@ -1,7 +1,7 @@
 
-public class Referencias {
+private class Referencias {
 
-	public static void main(String[] args) {
+	private static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Cuadrado C1=new Cuadrado();
 		Cuadrado C2=new Cuadrado();
