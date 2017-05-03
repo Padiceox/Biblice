@@ -1,6 +1,6 @@
 
-public class Triangulo extends Figura {
-	public void mostrarArea(){
+private class Triangulo extends Figura {
+	private void mostrarArea(){
 		area = base*altura;
 		
 		
