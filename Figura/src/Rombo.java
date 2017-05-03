@@ -1,6 +1,6 @@
 
-public class Rombo extends Figura {
-	public void mostrarArea(){
+private class Rombo extends Figura {
+	private void mostrarArea(){
 		area= (diagonalmayor*diagonalmenor)/2;
 		
 		
