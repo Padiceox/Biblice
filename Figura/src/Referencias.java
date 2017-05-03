@@ -17,7 +17,7 @@ public class Referencias {
 		System.out.println("C2:"+C2.lado);
 		
 		Operaciones.Sumar(10,  null);
-		Operaciones	
+		Operaciones.Division(100,0);	
 	}
 
 }
